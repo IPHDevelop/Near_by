@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  SimlpeNear
+//
+//  Created by Admini on 1/21/17.
+//  Copyright © 2017 Admini. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Define.h"
+
+#import <SVProgressHUD.h>
+#import <MapKit/MapKit.h>
+#import <MapKit/MKAnnotation.h>
+#import <MapKit/MKFoundation.h>
+#import <AFNetworking.h>
+#import <AddressBook/AddressBook.h>
+#endif /* PrefixHeader_pch */
